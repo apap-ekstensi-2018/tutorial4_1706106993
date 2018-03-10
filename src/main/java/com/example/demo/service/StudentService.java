@@ -10,5 +10,5 @@ public interface StudentService
   List<StudentModel> selectAllStudents ();
   void addStudent (StudentModel student);
   void deleteStudent (String npm);
-  StudentModel updateStudent (StudentModel model);
+  void updateStudent (StudentModel student);
 }

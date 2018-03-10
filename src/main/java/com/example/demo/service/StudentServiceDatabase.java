@@ -49,7 +49,7 @@ public class StudentServiceDatabase implements StudentService
   @Override
   public StudentModel updateStudent (StudentModel model)
   {
-    log.info("student " + model.getNpm() + " was updated");
-    return studentMapper.updateStudent(model.getNpm(), model.getGpa(), model.getName());
+//    log.info("student " + model.npm + " was updated");
+    return studentMapper.updateStudent(model);
   }
 }
